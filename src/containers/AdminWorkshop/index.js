@@ -129,7 +129,7 @@ console.log("ddddd");
                     </p></td>
                                 <td>
                                     <button onClick={e => 
-                                    axios.put(`http://localhost:8065/api/approveworkshops/approve/${workshops._id}`,config)
+                                    axios.put(`https://iconconferenceapp.herokuapp.com/api/approveworkshops/approve/${workshops._id}`,config)
                                     .then(res=>{
                                                alert("Approved");
                                                 console.log('added');
@@ -140,7 +140,7 @@ console.log("ddddd");
                                     </button>
                                    
                                     <button onClick={e => 
-                                    axios.put(`http://localhost:8065/api/approveworkshops/reject/${workshops._id}`,config)
+                                    axios.put(`https://iconconferenceapp.herokuapp.com/api/approveworkshops/reject/${workshops._id}`,config)
                                     .then(res=>{
                                                alert("Rejected");
                                                 console.log('added');
