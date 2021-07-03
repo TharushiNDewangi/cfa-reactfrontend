@@ -120,9 +120,9 @@ console.log("ddddd");
                             
                                 <td>
                                 <p>
-                    <a href={'http://localhost:8065/uploads/'+workshops.worshopproposol[0].fil} download="My_File.pdf">
+                    <a href={'https://iconconferenceapp.herokuapp.com/uploads/'+workshops.worshopproposol[0].fil} download="My_File.pdf">
                     {/* <a href="http://localhost:8065/uploads/test.pdf" download> */}
-                     <img src={'http://localhost:8065/uploads/'+workshops.topic} alt={workshops.topic} width="104" height="142"/>
+                     <img src={'https://iconconferenceapp.herokuapp.com/uploads/'+workshops.topic} alt={workshops.topic} width="104" height="142"/>
                      {/* <i class="text-danger bi bi-download" ></i>  */}
                     </a>
 

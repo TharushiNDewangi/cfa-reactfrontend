@@ -76,7 +76,7 @@ function WorkshopList() {
                                     
                                     
                                     // link= {papers.researchpaper[0].fil}
-                                    link ={ "http://localhost:8065/uploads/"+workshops.worshopproposol[0].fil}
+                                    link ={ "https://iconconferenceapp.herokuapp.com/uploads/"+workshops.worshopproposol[0].fil}
                                     workshopProposal={workshops.worshopproposol[0].fil}
                                    
                                 />

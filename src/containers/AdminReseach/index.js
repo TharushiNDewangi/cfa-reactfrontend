@@ -129,9 +129,9 @@ console.log("ddddd");
 
 
                                 <p>
-                    <a href={'http://localhost:8065/uploads/'+papers.researchpaper[0].fil} download="My_File.pdf">
+                    <a href={'https://iconconferenceapp.herokuapp.com/uploads/'+papers.researchpaper[0].fil} download="My_File.pdf">
                     {/* <a href="http://localhost:8065/uploads/test.pdf" download> */}
-                     <img src={'http://localhost:8065/uploads/'+papers.title} alt={papers.title} width="104" height="142"/>
+                     <img src={'https://iconconferenceapp.herokuapp.com/uploads/'+papers.title} alt={papers.title} width="104" height="142"/>
                      {/* <i class="text-danger bi bi-download" ></i>  */}
                     </a>
 

@@ -107,7 +107,7 @@ function PaperList() {
                                     imageUrl="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png"
                                     
                                     // link= {papers.researchpaper[0].fil}
-                                    link ={ "http://localhost:8065/uploads/"+papers.researchpaper[0].fil}
+                                    link ={ "https://iconconferenceapp.herokuapp.com/uploads/"+papers.researchpaper[0].fil}
                                     pdfName={papers.researchpaper[0].fil}
                                    
                                 />
